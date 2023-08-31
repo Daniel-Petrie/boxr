@@ -1,0 +1,51 @@
+export const homeObjOne = {
+  id: 'about',
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'Empower Your Journey',
+  headline: 'Discover the Art of Boxing',
+  description:
+    'Join our premium gym and discover the world of boxing. Our expert trainers are here to guide you through an exhilarating journey of self-improvement and strength building.',
+  buttonLabel: 'Get Started',
+  imgStart: false,
+  img: require('../../images/svg-4.svg').default,
+  alt: 'Boxing',
+  dark: true,
+  primary: true,
+  darkText: false,
+}
+export const homeObjTwo = {
+  id: 'discover',
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'Unleash Your Potential',
+  headline: 'Experience Boxing Like Never Before',
+  description:
+    "Embark on a journey of transformation and empowerment. With our state-of-the-art facilities and world-class trainers, you'll discover the true essence of boxing while pushing your limits.",
+  buttonLabel: 'Download Now',
+  imgStart: true,
+  img: require('../../images/svg-3.svg').default,
+  alt: 'Boxing Phone',
+  dark: false,
+  primary: false,
+  darkText: true,
+}
+export const homeObjThree = {
+  id: 'signup',
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'Join Our Community',
+  headline: 'Experience the Passion of Boxing',
+  description:
+    'Ready to make a change? Become a part of our thriving boxing community and elevate your fitness journey. Our dedicated trainers and supportive atmosphere await you.',
+  buttonLabel: 'Get Started',
+  imgStart: false,
+  img: require('../../images/svg-2.svg').default,
+  alt: 'Boxing',
+  dark: false,
+  primary: false,
+  darkText: true,
+}
